@@ -28,7 +28,7 @@ namespace WebApplicationClinicalManagementSystem
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Login}/{id?}");
+                pattern: "{controller=Home}/{action=index}/{id?}");
 
             app.Run();
         }
